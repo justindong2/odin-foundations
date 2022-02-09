@@ -1,0 +1,14 @@
+.first, .second {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+
+.first {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+.second {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 0);
+}
