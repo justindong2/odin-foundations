@@ -34,7 +34,7 @@ a {
   background-color: #1F2937;
   display: flex;
   align-items: center;
-  gap: 32px;
+  gap: 48px;
   padding: 48px;
 }
 
@@ -64,6 +64,7 @@ a {
 .hero-image {
   background-color: rgb(109, 116, 125);
   color: #E5E7EB;
+  font-size: 18px;
   width: 400px;
   height: 200px;
   display: flex;
@@ -104,4 +105,35 @@ a {
   border: 5px solid #3882F6;
   border-radius: 16px;
   margin-bottom: 16px;
+}
+
+.info-text {
+  color: #1F2937;
+  font-size: 18px;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-text {
+  color: #1F2937;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 36px;
+  width: 75%;
+  margin-bottom: 16px;
+}
+
+.quote-author {
+  color: #1F2937;
+  font-size: 18px;
+  font-weight: bolder;
+  width: 75%;
+  text-align: right;
 }
