@@ -34,7 +34,8 @@ a {
   background-color: #1F2937;
   display: flex;
   align-items: center;
-  padding: 48px 48px;
+  gap: 32px;
+  padding: 48px;
 }
 
 .hero-title {
@@ -68,4 +69,39 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 48px;
+}
+
+.info-title {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: bolder;
+  margin-bottom: 32px;
+}
+
+.info-container {
+  display: flex;
+}
+
+.info-item {
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.info-image {
+  width: 150px;
+  height: 150px;
+  border: 5px solid #3882F6;
+  border-radius: 16px;
+  margin-bottom: 16px;
 }
